@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/:countryCode/:cityName" element={<CityWeather />} />
         </Routes>
-        <CustomFooter />
+        {/* <CustomFooter /> */}
       </div>
     </BrowserRouter>
   );
